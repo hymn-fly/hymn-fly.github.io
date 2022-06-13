@@ -1,31 +1,31 @@
 # Site
-repository: sproogen/resume-theme
+repository: hymn-fly/hymn-fly.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: 길근오
+title: Java Backend Engineer
+email: rlfrmsdh1@gmail.com
+website: https://geuno.notion.site/fe38c96690c74550a704b892a801d632
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: never
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+# twitter_username: facespics
+github_username:  hymn-fly
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+instagram_username: rlfrmsdh
+# linkedin_username: jameswgrant
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
@@ -48,9 +48,11 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Java 백엔드 엔지니어로서의 삶을 준비하고 있는 길근오라고 합니다. 서울대학교 우주항공공학부 학부/대학원(비행역학제어 연구실. 석사)을 졸업하였고 그 후 전문연구요원을 웹개발 회사에서 진행하면서 백엔드 엔지니어에 대한 흥미가 생겨 직무를 전환하게 되었습니다.
+  
+  해당 회사에서 웹 개발프로젝트를 진행하며 <mark>AWS</mark>(S3, Lambda, ECR, EC2, RDS 등)를 이용한 서비스를 운영하였고 python을 이용한 웹개발을 수행하며, <mark>Django</mark>, <mark>Flask</mark> 프레임워크를 이용하였고 <mark>Docker</mark> 를 이용하여 <mark>Linux</mark> 서버에 배포하였습니다.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  이후, **프로그래머스 클라우드 기반 백엔드 엔지니어링 데브코스**를 들으며, 소프트웨어 엔지니어가 되기 위한 기초를 갈고 닦고 있습니다.
 
 content:
   - title: Projects # Title for the section
