@@ -9,7 +9,7 @@ version: 2
 name: 길근오
 title: Java Backend Engineer
 email: rlfrmsdh1@gmail.com
-website: https://geuno.notion.site/fe38c96690c74550a704b892a801d632
+website: [개인 기록용 노션 페이지](https://geuno.notion.site/fe38c96690c74550a704b892a801d632)
 
 # Dark Mode (true/false/never)
 darkmode: never
@@ -30,10 +30,10 @@ instagram_username: rlfrmsdh
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-# additional_links:
-# - title: itsgoingto.be
-#   icon: fas fa-globe
-#   url: https://www.itsgoingto.be
+additional_links:
+- title: notion page
+  icon: fas fa-globe
+  url: https://geuno.notion.site/fe38c96690c74550a704b892a801d632
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,7 +48,7 @@ instagram_username: rlfrmsdh
 # about_title: About Me
 about_profile_image: images/geuno.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Java 백엔드 엔지니어로서의 삶을 준비하고 있는 길근오라고 합니다. 서울대학교 우주항공공학부 학부/대학원(비행역학제어 연구실. 석사)을 졸업하였고 그 후 전문연구요원을 웹개발 회사에서 진행하면서 백엔드 엔지니어에 대한 흥미가 생겨 직무를 전환하게 되었습니다.
+  Java 백엔드 엔지니어를 준비하고 있는 길근오라고 합니다. 서울대학교 우주항공공학부 학부/대학원(비행역학제어 연구실. 석사)을 졸업하였고 그 후 전문연구요원을 웹개발 회사에서 진행하면서 백엔드 엔지니어에 대한 흥미가 생겨 직무를 전환하게 되었습니다.
   
   전문연구요원을 진행한 회사에서 웹 개발프로젝트를 진행하며 <mark>AWS</mark>(S3, Lambda, ECR, EC2, RDS 등)를 이용한 서비스를 운영하였고 python의 <mark>Django</mark>, <mark>Flask</mark> 프레임워크를 이용하여 웹개발 수행, <mark>Docker</mark> 를 이용하여 <mark>Linux</mark> 서버에 배포하였습니다.
 
