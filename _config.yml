@@ -50,7 +50,7 @@ about_profile_image: images/geuno.jpg
 about_content: | # this will include new lines to allow paragraphs
   Java 백엔드 엔지니어로서의 삶을 준비하고 있는 길근오라고 합니다. 서울대학교 우주항공공학부 학부/대학원(비행역학제어 연구실. 석사)을 졸업하였고 그 후 전문연구요원을 웹개발 회사에서 진행하면서 백엔드 엔지니어에 대한 흥미가 생겨 직무를 전환하게 되었습니다.
   
-  해당 회사에서 웹 개발프로젝트를 진행하며 <mark>AWS</mark>(S3, Lambda, ECR, EC2, RDS 등)를 이용한 서비스를 운영하였고 python을 이용한 웹개발을 수행하며, <mark>Django</mark>, <mark>Flask</mark> 프레임워크를 이용하였고 <mark>Docker</mark> 를 이용하여 <mark>Linux</mark> 서버에 배포하였습니다.
+  전문연구요원을 진행한 회사에서 웹 개발프로젝트를 진행하며 <mark>AWS</mark>(S3, Lambda, ECR, EC2, RDS 등)를 이용한 서비스를 운영하였고 python의 <mark>Django</mark>, <mark>Flask</mark> 프레임워크를 이용하여 웹개발 수행, <mark>Docker</mark> 를 이용하여 <mark>Linux</mark> 서버에 배포하였습니다.
 
   이후, **프로그래머스 클라우드 기반 백엔드 엔지니어링 데브코스**를 들으며, 자바 스프링 백엔드 엔지니어가 되기 위한 기초(CS, 특정 기술의 필요성 등)를 갈고 닦고 있습니다.
 
@@ -84,18 +84,19 @@ content:
         quote: >
           회계사, 세무사가 진행하는 번거로운 수작업들을 자동화 해주는 서비스를 AWS Lambda 기반으로 구성
         description: | # this will include new lines to allow paragraphs
-            - 1
-            - 2
-            - 3
+            - AWS DynamoDB에 기존 신고 데이터 적재
+            - 기존 신고 데이터를 통해 잘못된 신고를 수정하여 신고(AWS Lambda)
+            - AWS SQS를 이용한 신고 완료 이벤트 전달
       - layout: top-middle
         title: 중고차 시세 제공 서비스 개발
         link : https://www.ajsellcar.co.kr/ajScore/searchNumber.do
         quote: >
           중고 거래 시장에서 거래되는 차량의 중고가와 중고 거래 통계를 제공해주는 서비스
         description: |
-            - 1
-            - 2
-            - 3
+            - 시세 서비스 백엔드 API 개발
+            - 정기적인 데이터 처리 Celery 로 구현
+            - Redis 이용한 캐시 기능 적용
+            - Jwt 토큰을 이용한 API 보안
       - layout: top-middle
         title: 
           
@@ -109,12 +110,15 @@ content:
         sub_title: 기계항공공학부
         description: | # this will include new lines to allow paragraphs
           - 학점 : 3.65 / 4.3
+          - Matlab을 활용한 드론의 역진자 제어 시뮬레이션 수행
       - layout: left
         title: 서울대학교 대학원
         caption: 2015.9 - 2018.8
         sub_title: 우주항공공학 석사
         description: | # this will include new lines to allow paragraphs
           - 학점 : 3.95 / 4.3
+          - 쿼드로터(드론)에 로봇팔이 달려있는 시스템에 대한 자세 제어 시뮬레이션 수행
+          - 인공신경망을 활용하여 적응 제어기 
       - layout: left
         title: 프로그래머스 클라우드 기반 백엔드 엔지니어링 데브코스
         link: https://programmers.co.kr/learn/courses/13478
@@ -125,7 +129,6 @@ content:
           - Spring Security 학습
           - AWS, Linux 학습
           - TDD, OOP에 대한 개념 & 실무진 멘토의 코드리뷰를 통한 학습
-          - 클론코딩
   - title: Skill
     layout: list
     content:
@@ -135,13 +138,20 @@ content:
           사용한 경험이 있는 기술들 입니다.
         description: | # this will include new lines to allow paragraphs
           - Java, Python
-          - Spring Boot, Spring MVC, Spring Security, Spring Data Jpa, JDBC,
+          - Spring Boot, Spring MVC, Spring Security, Spring Data Jpa, JDBC
+          - JPA
+          - Oracle, Postgresql, Mysql, Redis
+          - Gradle, Maven
+          - IntelliJ, Visual Studio Code
+
       - layout: left
-        title: 서울대학교 대학원
-        caption: 2015.9 - 2018.8
-        sub_title: 우주항공공학 석사
+        title: DevOps
+
         description: | # this will include new lines to allow paragraphs
-          - 학점 : 3.95 / 4.3
+          - Docker, Docker Compose
+          - AWS Lambda, EC2, S3, RDS
+          - Linux
+
 
 #   - title: A Little More About Me
 #     layout: text
