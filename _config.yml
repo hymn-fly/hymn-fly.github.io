@@ -55,7 +55,7 @@ about_content: | # this will include new lines to allow paragraphs
   이후, **프로그래머스 클라우드 기반 백엔드 엔지니어링 데브코스**를 들으며, 자바 스프링 백엔드 엔지니어가 되기 위한 기초(CS, 특정 기술의 필요성 등)를 갈고 닦고 있습니다.
 
 content:
-  - title: 경력 # Title for the section
+  - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -74,7 +74,7 @@ content:
           - 중고차 시세 제공 서비스 개발(Django, Docker, Redis, Oracle)
           - 딥러닝을 이용한 비전 프로젝트 진행(Tensorflow, Opencv)
 
-  - title: 프로젝트 # Title for the section
+  - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
@@ -112,7 +112,7 @@ content:
       - layout: left
         title: 서울대학교 대학원
         caption: 2015.9 - 2018.8
-        sub_title: 우주항공공학
+        sub_title: 우주항공공학 석사
         description: | # this will include new lines to allow paragraphs
           - 학점 : 3.95 / 4.3
       - layout: left
@@ -124,18 +124,36 @@ content:
           - JPA, JDBC, QueryDsl, JPQL 등 DB 활용 기술 학습
           - Spring Security 학습
           - AWS, Linux 학습
+          - TDD, OOP에 대한 개념 & 실무진 멘토의 코드리뷰를 통한 학습
+          - 클론코딩
+  - title: Skill
+    layout: list
+    content:
+      - layout: left
+        title: Backend
+        quote: >
+          사용한 경험이 있는 기술들 입니다.
+        description: | # this will include new lines to allow paragraphs
+          - Java, Python
+          - Spring Boot, Spring MVC, Spring Security, Spring Data Jpa, JDBC,
+      - layout: left
+        title: 서울대학교 대학원
+        caption: 2015.9 - 2018.8
+        sub_title: 우주항공공학 석사
+        description: | # this will include new lines to allow paragraphs
+          - 학점 : 3.95 / 4.3
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+#   - title: A Little More About Me
+#     layout: text
+#     content: | # this will include new lines to allow paragraphs
+#       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+#       - Rock climbing
+#       - Gaming
+#       - Knitting
+#       - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
-      Look at this cool image  
-      ![Trees](images/landscape-trees.jpg "Trees")
+#       Look at this cool image  
+#       ![Trees](images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
