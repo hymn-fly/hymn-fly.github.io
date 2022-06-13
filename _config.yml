@@ -118,7 +118,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           - 학점 : 3.95 / 4.3
           - 쿼드로터(드론)에 로봇팔이 달려있는 시스템에 대한 자세 제어 시뮬레이션 수행
-          - 인공신경망을 활용하여 적응 제어기 
+          - 인공신경망을 활용하여 적응 제어기 설계
       - layout: left
         title: 프로그래머스 클라우드 기반 백엔드 엔지니어링 데브코스
         link: https://programmers.co.kr/learn/courses/13478
