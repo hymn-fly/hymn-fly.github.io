@@ -54,6 +54,8 @@ about_content: | # this will include new lines to allow paragraphs
   전문연구요원을 진행한 회사에서 웹 개발프로젝트를 진행하며 <mark>AWS</mark>(S3, Lambda, ECR, EC2, RDS 등)를 이용한 서비스를 운영하였고 python의 <mark>Django</mark>, <mark>Flask</mark> 프레임워크를 이용하여 웹개발 수행, <mark>Docker</mark> 를 이용하여 <mark>Linux</mark> 서버에 배포하였습니다.
 
   이후, **프로그래머스 클라우드 기반 백엔드 엔지니어링 데브코스**를 들으며, 자바 스프링 백엔드 엔지니어가 되기 위한 기초(CS, 특정 기술의 필요성 등)를 갈고 닦고 있습니다.
+  
+  어떤 개발자로 성장하고 싶은지, 어떤 경험을 하면서 성장하고 싶은지.
 
 content:
   - title: Experience # Title for the section
