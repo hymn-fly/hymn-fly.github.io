@@ -131,7 +131,7 @@ content:
           - JPA, JDBC, QueryDsl, JPQL 등 DB 활용 기술 학습
           - Spring Security 학습
           - AWS, Linux 학습
-          - TDD, OOP에 대한 개념 & 실무진 멘토의 코드리뷰를 통한 학습
+          - TDD, OOP를 기반으로 한 코드 설계 & 실무진 멘토의 코드리뷰를 통한 더 나은 코드 퀄리티를 위한 고민
   - title: Skill
     layout: list
     content:
