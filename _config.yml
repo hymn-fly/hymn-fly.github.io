@@ -73,7 +73,7 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         description: | # this will include new lines to allow paragraphs
-          - 경정 청구 자동화 서비스 개발(AWS Lambda & CloudWatch & RDS)
+          - 경정 청구 자동화 서비스 개발(AWS Lambda, ApiGateway, DynamoDB, SQS)
           - 중고차 시세 제공 서비스 개발(Django, Docker, Redis, Oracle)
           - 딥러닝을 이용한 비전 프로젝트 진행(Tensorflow, Opencv)
 
