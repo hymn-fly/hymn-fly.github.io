@@ -49,13 +49,13 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/geuno.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Java 백엔드 엔지니어를 준비하고 있는 길근오라고 합니다. 서울대학교 우주항공공학부 학부/대학원(비행역학제어 연구실. 석사)을 졸업하였고 그 후 전문연구요원을 웹개발 회사에서 진행하면서 백엔드 엔지니어에 대한 흥미가 생겨 직무를 전환하게 되었습니다.
+  Java Spring Boot를 이용한 백엔드, Vue 프론트엔드 웹 개발을 하는 길근오입니다. 서비스를 더 좋게 할 수 있는 새로운 기술들을 배워보고 공부하는 것을 좋아하고 다른 사람들과 같이 이야기하며 프로덕트를 만들어 나가는 것을 좋아합니다.
   
-  전문연구요원을 진행한 회사에서 웹 개발프로젝트를 진행하며 <mark>AWS</mark>(S3, Lambda, ECR, EC2, RDS 등)를 이용한 서비스를 운영하였고 python의 <mark>Django</mark>, <mark>Flask</mark> 프레임워크를 이용하여 웹개발 수행, <mark>Docker</mark> 를 이용하여 <mark>Linux</mark> 서버에 배포하였습니다.
-
-  이후, **프로그래머스 클라우드 기반 백엔드 엔지니어링 데브코스**를 들으며 자바 스프링 백엔드 엔지니어가 되기 위한 기초(CS, 특정 기술의 필요성 등)를 갈고 닦고 있습니다.
+  주요 기술 스택으로는 <mark>Spring Boot</mark>, <mark>Vue</mark>, <mark>ELK Stack</mark>, <mark>AWS</mark>, <mark>Docker</mark>, <mark>MySQL</mark>를 이용합니다.
   
-  장기적으로는 기술의 핵심에 대해 이해하고 사용할 수 있는 개발자, 클린 코드를 작성할 수 있는 개발자가 되는 것이 목표입니다.
+  현재는 가지고 있는 기술 스택을 전문가 처럼 자유자재로 활용할 수 있도록 노력하는 중입니다.
+  
+  장기적으로 해당 기술 스택들을 이용해서 많은 프로덕트를 만들어보는 경험을 쌓고 싶습니다.
 
 content:
   - title: Experience # Title for the section
@@ -76,6 +76,13 @@ content:
           - 경정 청구 자동화 서비스 개발(AWS Lambda, ApiGateway, DynamoDB, SQS)
           - 중고차 시세 제공 서비스 개발(Django, Docker, Redis, Oracle)
           - 딥러닝을 이용한 비전 프로젝트 진행(Tensorflow, Opencv)
+      - layout: left
+        title: LG U+
+        sub_title: 메타버스 서버 개발 & 관리자 페이지 개발
+        caption: 2022.9 ~ 
+        description: |
+          - 가상오피스 서버 개발
+          - 공간제작툴 관리자 페이지 서버, 프론트 개발
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -138,12 +145,12 @@ content:
       - layout: left
         title: Backend
         quote: >
-          사용한 경험이 있는 기술들 입니다.
+          자신 있는 기술들입니다.
         description: | # this will include new lines to allow paragraphs
-          - Java, Python
-          - Spring Boot, Spring MVC, Spring Security, Spring Data Jpa, JDBC
+          - Java, Typescript
+          - Spring Boot, Spring Security, Spring Data Jpa, JDBC
           - JPA
-          - Oracle, Postgresql, Mysql, Redis
+          - Mysql, Redis
           - Gradle, Maven
           - IntelliJ, Visual Studio Code
 
@@ -154,6 +161,7 @@ content:
           - Docker, Docker Compose
           - AWS Lambda, EC2, S3, RDS
           - Linux
+          - ELK Stack
 
 
 #   - title: A Little More About Me
