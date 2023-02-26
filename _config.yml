@@ -87,7 +87,7 @@ content:
     content:
       - layout: top-middle
         title: Tax Automation Service
-#         sub_title: 2021.6 ~ 2021.11
+        sub_title: 2021.6 ~ 2021.11
         quote: >
           Automating accountant and tax accountant's cumbersome handworks using AWS Lambda
         description: | # this will include new lines to allow paragraphs
@@ -96,7 +96,7 @@ content:
             - After completion, event will be transferred to AWS SQS
       - layout: top-middle
         title: Used-car price search Website
-#         sub_title: 2020.3 ~ 2020.11
+        sub_title: 2020.3 ~ 2020.11
         link : https://www.ajsellcar.co.kr/ajScore/searchNumber.do
         quote: >
           Service serving used-car price and trading statistics
@@ -107,7 +107,7 @@ content:
             - API Security using Jwt token
       - layout: top-middle
         title: Virtual Office
-#         sub_title: 23.1 ~
+        sub_title: 23.1 ~
         quote: >
           Metaverse Service for office worker
         description: |
@@ -116,7 +116,7 @@ content:
           - Statistics Visualization (Elastic Search & Kibana)
           - CI/CD (Github action & Jenkins)
 
-      - layout: top
+      - layout: top-middle
         title: Ais Gateway
         sub_title: 23.1 ~
         quote: >
