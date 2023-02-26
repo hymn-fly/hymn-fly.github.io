@@ -53,7 +53,7 @@ about_content: | # this will include new lines to allow paragraphs
   Based on this knowledge, I usually communicate with colleague for better cooperation and making the better application.
   Skillful tech stacks are <mark>Spring Boot</mark>, <mark>Vue.js</mark>, <mark>ELK Stack</mark>, <mark>AWS</mark>, <mark>Docker</mark>, <mark>MySQL</mark>
   I'm trying to upgrade my tech stacks so that I can have good command of those skills.
-  Nowdays, I'm doing projects to use my knowledge and skill sets.
+  Nowdays, I'm doing several projects to be good at my skill sets.
   
 
 content:
@@ -79,18 +79,14 @@ content:
         sub_title: Backend Developer
         caption: 2022.9 ~ 
         description: |
-          - Virtual Office Login Server (Java Spring Boot)
-          - Admin page for virtual-office (Vue.js)
-          - Statistics Visualization (Elastic Search & Kibana)
-          - CI/CD (Github action & Jenkins)
+          - Virtual Office (Metaverse Service)
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
         title: Tax Automation Service
-#         link: https://www.nextlab.ai/
-#         sub_title: Python 백엔드 & 딥러닝 개발자
+        sub_title: 2021.6 ~ 2021.11
         quote: >
           Automating accountant and tax accountant's cumbersome handworks using AWS Lambda
         description: | # this will include new lines to allow paragraphs
@@ -99,6 +95,7 @@ content:
             - After completion, event will be transferred to AWS SQS
       - layout: top-middle
         title: Used-car price search Website
+        sub_title: 2020.3 ~ 2020.11
         link : https://www.ajsellcar.co.kr/ajScore/searchNumber.do
         quote: >
           Service serving used-car price and trading statistics
@@ -108,7 +105,28 @@ content:
             - Use cache to prevent long query (Redis)
             - API Security using Jwt token
       - layout: top-middle
-        title: 
+        title: Virtual Office
+        sub_title: 23.1 ~
+        quote: >
+          Metaverse Service for office worker
+        description: |
+          - Login Server (Spring Boot)
+          - Admin Page (Vue.js)
+          - Statistics Visualization (Elastic Search & Kibana)
+          - CI/CD (Github action & Jenkins)
+
+      - layout: top-middle
+        title: Ais Gateway
+        sub_title: 23.1 ~
+        quote: >
+          Ship Data(from satellite. 1000TPS) post processing for clustering datas
+        description: |
+          - Spring Integration Framework
+          - Scheduling Jobs using Spring Quartz
+          - Monitoring application in memory queue, thread pool (Telegraf, Prometheus, Grafana)
+          - Query Optimization from utilizing query plan
+          - CI/CD (Github action & Jenkins)
+
           
 
   - title: Education # Title for the section
