@@ -49,64 +49,73 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/geuno.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Java Spring Boot를 이용한 백엔드, Vue 프론트엔드 웹 개발을 하는 길근오입니다. 서비스를 더 좋게 할 수 있는 새로운 기술들을 배워보고 공부하는 것을 좋아하고 다른 사람들과 같이 이야기하며 프로덕트를 만들어 나가는 것을 좋아합니다.
+  Hi, I'm using Spring Boot for developing backend and Vue for frontend web pages. I'm enjoying learning new skills, studying consistently.
+  Based on this knowledge, I usually communicate with colleague for better cooperation and making the better application.
+#  Java Spring Boot를 이용한 백엔드, Vue 프론트엔드 웹 개발을 하는 길근오입니다. 서비스를 더 좋게 할 수 있는 새로운 기술들을 배워보고 공부하는 것을 좋아하고 다른 사람들과 같이 이야기하며 프로덕트를 만들어 나가는 것을 좋아합니다.
+  Skillful tech stacks are <mark>Spring Boot</mark>, <mark>Vue.js</mark>, <mark>ELK Stack</mark>, <mark>AWS</mark>, <mark>Docker</mark>, <mark>MySQL</mark>
+#  주요 기술 스택으로는 <mark>Spring Boot</mark>, <mark>Vue</mark>, <mark>ELK Stack</mark>, <mark>AWS</mark>, <mark>Docker</mark>, <mark>MySQL</mark>를 이용합니다.
   
-  주요 기술 스택으로는 <mark>Spring Boot</mark>, <mark>Vue</mark>, <mark>ELK Stack</mark>, <mark>AWS</mark>, <mark>Docker</mark>, <mark>MySQL</mark>를 이용합니다.
+  I'm trying to upgrade my tech stacks so that I can have good command of those skills.
+  Nowdays, I'm doing projects to use my knowledge and skill sets.
+#  현재는 가지고 있는 기술 스택을 전문가 처럼 자유자재로 활용할 수 있도록 노력하는 중입니다.
   
-  현재는 가지고 있는 기술 스택을 전문가 처럼 자유자재로 활용할 수 있도록 노력하는 중입니다.
-  
-  장기적으로 해당 기술 스택들을 이용해서 많은 프로덕트를 만들어보는 경험을 쌓고 싶습니다.
+#  장기적으로 해당 기술 스택들을 이용해서 많은 프로덕트를 만들어보는 경험을 쌓고 싶습니다.
 
 content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 넥스트랩
+        title: Nextlab
         link: https://www.nextlab.ai/
-        sub_title: Python 백엔드 & 딥러닝 개발자
+        sub_title: Python backend & deeplearning engineer
         caption: 2018.12 ~ 2021.11
         quote: >
-          딥러닝 기반 SI 기업
+          Deeplearning based SI Company
         # link_text: Project Website
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+#          - 경정 청구 자동화 서비스 개발(AWS Lambda, ApiGateway, DynamoDB, SQS)
+#          - 중고차 시세 제공 서비스 개발(Django, Docker, Redis, Oracle)
+#          - 딥러닝을 이용한 비전 프로젝트 진행(Tensorflow, Opencv)
         description: | # this will include new lines to allow paragraphs
-          - 경정 청구 자동화 서비스 개발(AWS Lambda, ApiGateway, DynamoDB, SQS)
-          - 중고차 시세 제공 서비스 개발(Django, Docker, Redis, Oracle)
-          - 딥러닝을 이용한 비전 프로젝트 진행(Tensorflow, Opencv)
+          - tax issue automation service(AWS Lambda, ApiGateway, DynamoDB, SQS)
+          - Used-car price search WebSite development(Django, Docker, Redis, Oracle)
       - layout: left
         title: LG U+
-        sub_title: 메타버스 서버 개발 & 관리자 페이지 개발
+        sub_title: Backend Developer
         caption: 2022.9 ~ 
         description: |
-          - 가상오피스 서버 개발
-          - 공간제작툴 관리자 페이지 서버, 프론트 개발
+          - Virtual Office Login Server (Java Spring Boot)
+          - Admin page for virtual-office (Vue.js)
+          - Statistics Visualization (Elastic Search & Kibana)
+          - CI/CD (Github action & Jenkins)
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: 경정 청구 자동화 서비스 개발
+        title: Tax Automation Service
 #         link: https://www.nextlab.ai/
 #         sub_title: Python 백엔드 & 딥러닝 개발자
         quote: >
-          회계사, 세무사가 진행하는 번거로운 수작업들을 자동화 해주는 서비스를 AWS Lambda 기반으로 구성
+          Automating accountant and tax accountant's cumbersome handworks using AWS Lambda
+#          회계사, 세무사가 진행하는 번거로운 수작업들을 자동화 해주는 서비스를 AWS Lambda 기반으로 구성
         description: | # this will include new lines to allow paragraphs
-            - AWS DynamoDB에 기존 신고 데이터 적재
-            - 기존 신고 데이터를 통해 잘못된 신고를 수정하여 신고(AWS Lambda)
-            - AWS SQS를 이용한 신고 완료 이벤트 전달
+            - Save already submitted forms in AWS DynamoDB
+            - Some logic in AWS Lambda
+            - After completion, event will be transferred to AWS SQS
       - layout: top-middle
-        title: 중고차 시세 제공 서비스 개발
+        title: Used-car price search Website
         link : https://www.ajsellcar.co.kr/ajScore/searchNumber.do
         quote: >
-          중고 거래 시장에서 거래되는 차량의 중고가와 중고 거래 통계를 제공해주는 서비스
+          Service serving used-car price and trading statistics
         description: |
-            - 시세 서비스 백엔드 API 개발
-            - 정기적인 데이터 처리 Celery 로 구현
-            - Redis 이용한 캐시 기능 적용
-            - Jwt 토큰을 이용한 API 보안
+            - Developing Backend API (Django)
+            - Scheduleing job (Celery)
+            - Use cache to prevent long query (Redis)
+            - API Security using Jwt token
       - layout: top-middle
         title: 
           
@@ -115,41 +124,41 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 서울대학교
+        title: Seoul National University
         caption: 2011.3 - 2015.8
-        sub_title: 기계항공공학부
+        sub_title: Mechanical and Aerospace Engineering
         description: | # this will include new lines to allow paragraphs
-          - 학점 : 3.65 / 4.3
-          - Matlab을 활용한 드론의 역진자 제어 시뮬레이션 수행
+          - Score : 3.65 / 4.3
+          - Drone Inverted pendulum problem simulation using Matlab
       - layout: left
-        title: 서울대학교 대학원
+        title: Seoul National University Graduate School
         caption: 2015.9 - 2018.8
-        sub_title: 우주항공공학 석사
+        sub_title: Aerospace Engineering Master Degree
         description: | # this will include new lines to allow paragraphs
-          - 학점 : 3.95 / 4.3
-          - 쿼드로터(드론)에 로봇팔이 달려있는 시스템에 대한 자세 제어 시뮬레이션 수행
-          - 인공신경망을 활용하여 적응 제어기 설계
+          - Score : 3.95 / 4.3
+          - Attitude Control simulation for drone with robotic arm
+          - Design adaptive controller using Neural networks
       - layout: left
-        title: 프로그래머스 클라우드 기반 백엔드 엔지니어링 데브코스
+        title: Programmers Devcourse for Backend Engineering
         link: https://programmers.co.kr/learn/courses/13478
-        caption: 2022.3 - 2022.8(예정)
+        caption: 2022.3 - 2022.8
         description: | # this will include new lines to allow paragraphs
-          - Spring의 원리 학습(DI, IoC, AoP, Spring MVC 패턴 등)
-          - JPA, JDBC, QueryDsl, JPQL 등 DB 활용 기술 학습
-          - Spring Security 학습
-          - AWS, Linux 학습
-          - TDD, OOP를 기반으로 한 코드 설계 & 실무진 멘토의 코드리뷰를 통한 더 나은 코드 퀄리티를 위한 고민
+          - Learning Spring principle(DI, IoC, AoP, Spring MVC 패턴 등)
+          - Learning Spring Persistence framework (JPA, JDBC, QueryDsl, JPQL)
+          - Spring Security
+          - AWS, Linux
+          - Code design based on TDD, OOP. Interacting Code reviews from hands-on mentors
   - title: Skill
     layout: list
     content:
       - layout: left
         title: Backend
         quote: >
-          자신 있는 기술들입니다.
+#          자신 있는 기술들입니다.
         description: | # this will include new lines to allow paragraphs
           - Java, Typescript
           - Spring Boot, Spring Security, Spring Data Jpa, JDBC
-          - JPA
+          - JPA, MyBatis
           - Mysql, Redis
           - Gradle, Maven
           - IntelliJ, Visual Studio Code
