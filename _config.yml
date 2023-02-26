@@ -100,7 +100,7 @@ content:
         link : https://www.ajsellcar.co.kr/ajScore/searchNumber.do
         quote: >
           Service serving used-car price and trading statistics
-        content: |
+        description: |
             - Developing Backend API (Django)
             - Scheduleing job (Celery)
             - Use cache to prevent long query (Redis)
@@ -110,13 +110,13 @@ content:
 #         sub_title: 23.1 ~
         quote: >
           Metaverse Service for office worker
-        content: |
+        description: |
           - Login Server (Spring Boot)
           - Admin Page (Vue.js)
           - Statistics Visualization (Elastic Search & Kibana)
           - CI/CD (Github action & Jenkins)
 
-      - layout: top-middle
+      - layout: top
         title: Ais Gateway
         sub_title: 23.1 ~
         quote: >
