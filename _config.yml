@@ -51,15 +51,10 @@ about_profile_image: images/geuno.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, I'm using Spring Boot for developing backend and Vue for frontend web pages. I'm enjoying learning new skills, studying consistently.
   Based on this knowledge, I usually communicate with colleague for better cooperation and making the better application.
-#  Java Spring Boot를 이용한 백엔드, Vue 프론트엔드 웹 개발을 하는 길근오입니다. 서비스를 더 좋게 할 수 있는 새로운 기술들을 배워보고 공부하는 것을 좋아하고 다른 사람들과 같이 이야기하며 프로덕트를 만들어 나가는 것을 좋아합니다.
   Skillful tech stacks are <mark>Spring Boot</mark>, <mark>Vue.js</mark>, <mark>ELK Stack</mark>, <mark>AWS</mark>, <mark>Docker</mark>, <mark>MySQL</mark>
-#  주요 기술 스택으로는 <mark>Spring Boot</mark>, <mark>Vue</mark>, <mark>ELK Stack</mark>, <mark>AWS</mark>, <mark>Docker</mark>, <mark>MySQL</mark>를 이용합니다.
-  
   I'm trying to upgrade my tech stacks so that I can have good command of those skills.
   Nowdays, I'm doing projects to use my knowledge and skill sets.
-#  현재는 가지고 있는 기술 스택을 전문가 처럼 자유자재로 활용할 수 있도록 노력하는 중입니다.
   
-#  장기적으로 해당 기술 스택들을 이용해서 많은 프로덕트를 만들어보는 경험을 쌓고 싶습니다.
 
 content:
   - title: Experience # Title for the section
@@ -76,9 +71,6 @@ content:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-#          - 경정 청구 자동화 서비스 개발(AWS Lambda, ApiGateway, DynamoDB, SQS)
-#          - 중고차 시세 제공 서비스 개발(Django, Docker, Redis, Oracle)
-#          - 딥러닝을 이용한 비전 프로젝트 진행(Tensorflow, Opencv)
         description: | # this will include new lines to allow paragraphs
           - tax issue automation service(AWS Lambda, ApiGateway, DynamoDB, SQS)
           - Used-car price search WebSite development(Django, Docker, Redis, Oracle)
@@ -101,7 +93,6 @@ content:
 #         sub_title: Python 백엔드 & 딥러닝 개발자
         quote: >
           Automating accountant and tax accountant's cumbersome handworks using AWS Lambda
-#          회계사, 세무사가 진행하는 번거로운 수작업들을 자동화 해주는 서비스를 AWS Lambda 기반으로 구성
         description: | # this will include new lines to allow paragraphs
             - Save already submitted forms in AWS DynamoDB
             - Some logic in AWS Lambda
@@ -153,8 +144,7 @@ content:
     content:
       - layout: left
         title: Backend
-        quote: >
-#          자신 있는 기술들입니다.
+#        quote: >
         description: | # this will include new lines to allow paragraphs
           - Java, Typescript
           - Spring Boot, Spring Security, Spring Data Jpa, JDBC
