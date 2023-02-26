@@ -49,7 +49,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/geuno.jpg
 about_content: | # this will include new lines to allow paragraphs
-  <t> Hi, I'm using Spring Boot for developing backend and Vue for frontend web pages. <br>
+  Hi, I'm using Spring Boot for developing backend and Vue for frontend web pages. <br>
   I'm enjoying learning new skills, studying consistently. Based on this knowledge, I usually communicate with 
   colleague for better cooperation and making the better application. <br>
   Skillful tech stacks are <mark>Spring Boot</mark>, <mark>Vue.js</mark>, <mark>ELK Stack</mark>, <mark>AWS</mark>, <mark>Docker</mark>, <mark>MySQL</mark> <br>
@@ -100,7 +100,7 @@ content:
         link : https://www.ajsellcar.co.kr/ajScore/searchNumber.do
         quote: >
           Service serving used-car price and trading statistics
-        description: |
+        content: |
             - Developing Backend API (Django)
             - Scheduleing job (Celery)
             - Use cache to prevent long query (Redis)
@@ -110,7 +110,7 @@ content:
 #         sub_title: 23.1 ~
         quote: >
           Metaverse Service for office worker
-        description: |
+        content: |
           - Login Server (Spring Boot)
           - Admin Page (Vue.js)
           - Statistics Visualization (Elastic Search & Kibana)
