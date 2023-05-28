@@ -17,7 +17,7 @@ darkmode: never
 
 # Social links
 # twitter_username: facespics
-github_username:  hymn-fly
+github_username: hymn-fly
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -32,9 +32,12 @@ instagram_username: rlfrmsdh
 
 # Additional icon links
 additional_links:
-- title: notion page
-  icon: fas fa-globe
-  url: https://geuno.notion.site/112374c6e10b486cb9659c427e7235a2
+  - title: notion page
+    icon: fas fa-book
+    url: https://geuno.notion.site/112374c6e10b486cb9659c427e7235a2
+  - title: blogs
+    icon: fas fa-blog
+    url: hymn-fly.github.io/blogs
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -55,7 +58,6 @@ about_content: | # this will include new lines to allow paragraphs
   Skillful tech stacks are <mark>Spring Boot</mark>, <mark>Vue.js</mark>, <mark>ELK Stack</mark>, <mark>AWS</mark>, <mark>Docker</mark>, <mark>MySQL</mark> <br>
   I'm trying to upgrade my tech stacks so that I can have good command of those skills.
   Nowdays, I'm doing several projects to be good at my skill sets.
-  
 
 content:
   - title: Experience # Title for the section
@@ -69,16 +71,16 @@ content:
         quote: >
           Deeplearning based SI Company
         # link_text: Project Website
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #   icon: fab fa-github
+        #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         description: | # this will include new lines to allow paragraphs
           - tax issue automation service(AWS Lambda, ApiGateway, DynamoDB, SQS)
           - Used-car price search WebSite development(Django, Docker, Redis, Oracle)
       - layout: left
         title: LG U+
         sub_title: Backend Developer
-        caption: 2022.9 ~ 
+        caption: 2022.9 ~
         description: |
           - Virtual Office (Metaverse Service)
 
@@ -91,20 +93,20 @@ content:
         quote: >
           Automating accountant and tax accountant's cumbersome handworks using AWS Lambda
         description: | # this will include new lines to allow paragraphs
-            - Save already submitted forms in AWS DynamoDB
-            - Some logic in AWS Lambda
-            - After completion, event will be transferred to AWS SQS
+          - Save already submitted forms in AWS DynamoDB
+          - Some logic in AWS Lambda
+          - After completion, event will be transferred to AWS SQS
       - layout: top-middle
         title: Used-car price search Website
         sub_title: 2020.3 ~ 2020.11
-        link : https://www.ajsellcar.co.kr/ajScore/searchNumber.do
+        link: https://www.ajsellcar.co.kr/ajScore/searchNumber.do
         quote: >
           Service serving used-car price and trading statistics
         description: |
-            - Developing Backend API (Django)
-            - Scheduleing job (Celery)
-            - Use cache to prevent long query (Redis)
-            - API Security using Jwt token
+          - Developing Backend API (Django)
+          - Scheduleing job (Celery)
+          - Use cache to prevent long query (Redis)
+          - API Security using Jwt token
       - layout: top-middle
         title: Virtual Office
         sub_title: 23.1 ~
@@ -127,8 +129,6 @@ content:
           - Monitoring application in memory queue, thread pool (Telegraf, Prometheus, Grafana)
           - Query Optimization from utilizing query plan
           - CI/CD (Github action & Jenkins)
-
-          
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -163,7 +163,7 @@ content:
     content:
       - layout: left
         title: Backend
-#        quote: >
+        #        quote: >
         description: | # this will include new lines to allow paragraphs
           - Java, Typescript
           - Spring Boot, Spring Security, Spring Data Jpa, JDBC
@@ -181,7 +181,6 @@ content:
           - Linux
           - ELK Stack
 
-
 #   - title: A Little More About Me
 #     layout: text
 #     content: | # this will include new lines to allow paragraphs
@@ -191,7 +190,7 @@ content:
 #       - Knitting
 #       - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
-#       Look at this cool image  
+#       Look at this cool image
 #       ![Trees](images/landscape-trees.jpg "Trees")
 
 # Footer
@@ -206,4 +205,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
