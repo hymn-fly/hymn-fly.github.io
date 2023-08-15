@@ -60,7 +60,7 @@ about_content: | # this will include new lines to allow paragraphs
   Nowdays, I'm doing several projects to be good at my skill sets.
 
 content:
-  - title: Experience # Title for the section
+  - title: Career # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -111,12 +111,24 @@ content:
         title: Virtual Office
         sub_title: 23.1 ~
         quote: >
-          Metaverse Service for office worker
+          Metaverse Service for office worker <br>
+          As an only one web backend developer, I worked as individual contributor & one person team leader (communicate with PM)
         description: |
           - Login Server (Spring Boot)
-          - Admin Page (Vue.js)
-          - Statistics Visualization (Elastic Search & Kibana)
+            - Deal with Overlapped login
+            - Use JWT Token as bearer token & implement refresh token
+          - Admin Page (Vue.js & TS)
           - CI/CD (Github action & Jenkins)
+          - Continous consideration on code architecture & package hierarchy & refactoring
+      - layout: top-middle
+        title: Legacy Virtual Office 
+        sub_title : 23.1 ~ 
+        quote: >
+          Metaverse Service for office worker (Developed by Unity) <br>
+          Implemented by serverless framework & Typescript
+        description: |
+          - Mail System Integration
+          - Legacy Code Refactoring backed by Test code 
 
       - layout: top-middle
         title: Ais Gateway
